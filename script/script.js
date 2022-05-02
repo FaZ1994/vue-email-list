@@ -2,6 +2,7 @@ const app = new Vue({
   el: "#app",
   data: {
     emailArray: [],
+    num: 10
   },
   methods: {},
   created() {

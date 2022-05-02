@@ -41,7 +41,7 @@
 
   <body>
     <div id="app">
-      <ul>
+      <ul v-if="num == emailArray.length">
         <li v-for="email in emailArray">{{email}}</li>
       </ul>
     </div>
